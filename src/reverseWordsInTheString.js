@@ -6,5 +6,8 @@ As the input may have trailing spaces, you will also need to ignore unneccesary 
  */
 
 function reverse(string) {
-    return string.split(' ').reverse().join(' ');
+    return string
+        .split(' ')
+        .reverse()
+        .join(' ');
 }
